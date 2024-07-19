@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page1 {
+    height: 100vh;
+    width: 100vw;
+}
+
+.image {
+    background-image: url('https://web24service.com/work/themeforest/w-shipping/assets/images/inner-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.image-overlay {
+    width: 100%;
+    display: flex;
+
+    height: 200px;
+    background-color: rgba(22, 0, 1, 0.8);
+}
+
+.page1 .image .left {
+    font-family: sans-serif;
+    width: 40%;
+    margin-left: 200px;
+    padding-top: 80px;
+    height: 50px;
+}
+
+.page1 .image .left h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.page1 .image .left p {
+    color: white;
+    line-height: 25px;
+
+    font-size: 14px;
+    color: #a3a3a3;
+}
+
+.page1 .image .left p span {
+    color: red;
+}
+
+.page1 .image .right {
+
+    height: 50px;
+    text-align: right;
+    margin-left: 200px;
+    padding-top: 80px;
+
+}
+
+.page1 .image .right h4 {
+    word-spacing: 3px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.page1 .image .right p {
+    color: white;
+
+}
+
+.page1 .image .right p span {
+    color: red;
+}
+
+.page1 .content {
+    height: 500px;
+    width: 80%;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 170px;
+}
+
+.page1 .content .div1 {
+    height: 500px;
+    width: 50%;
+}
+
+.image1 {
+    background-image: url('	https://web24service.com/work/themeforest/w-shipping/assets/images/single-blog-pic1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.image-overlay1 {
+    width: 100%;
+    display: flex;
+    height: 500px;
+    background-color: rgba(235, 0, 40, 0.8);
+}
+
+.image-overlay1 i {
+    font-size: 60px;
+    color: #fff;
+    width: 120px;
+    height: 120px;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+.image-overlay1 h4 {
+    color: #fff;
+    height: 50px;
+    width: 500px;
+    margin-top: 240px;
+    margin-left: -160px;
+    font-size: 18px;
+}
+
+.image-overlay1 p {
+    color: #fff;
+    height: 50px;
+    width: 650px;
+    margin-top: 280px;
+    margin-left: -620px;
+    font-size: 14px;
+}
+
+.image-overlay1 h3 {
+    color: #000;
+    height: 50px;
+    width: 500px;
+    margin-top: 335px;
+    margin-left: -300px;
+    font-size: 14px;
+}
+
+.page1 .content .div2 {
+    height: 500px;
+    width: 50%;
+    background-color: #e8e8e8;
+}
+
+.page1 .content .div2 h2 {
+    color: #444444;
+    padding-top: 25px;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+
+.page1 .content .div2 div {
+    height: 2px;
+    width: 58px;
+    margin-top: 6px;
+    background-color: red;
+    margin-left: 30px;
+}
+
+.page1 .content .div2 .mail {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.page1 .content .div2 .inp {
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 600px;
+}
+
+.page1 .content .div2 .pass {
+    margin-left: 30px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+.page1 .content .div2 .check {
+    margin-left: 30px;
+    color: red;
+    font-size: larger;
+}
+
+.page1 .content .div2 span {
+    margin-left: 10px;
+}
+
+.page1 .content .div2 .link {
+    margin-right: 30px;
+    margin-left: 270px;
+    font-family: sans-serif;
+}
+
+.page1 .content .div2 .btn {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 9px 18px;
+    background-color: #eb0028;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+}

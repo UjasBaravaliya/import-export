@@ -1,0 +1,307 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head1{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.left{
+    display: flex;
+    width: 70%;
+}
+
+.left .fa-envelope{
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.left a{
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    /* margin-top: 5px; */
+}
+
+.left hr{
+    margin-left: 5px;
+}
+
+.left .fa-phone{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.left p{
+    color: white;
+    /* margin-top: 5px; */
+    margin-left: 10px;
+}
+
+.left .fa-clock{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.right {
+    display: flex;
+}
+
+.right .fa-right-to-bracket{
+    margin-top: 5px;
+}
+
+.right a{
+    color: white;
+    text-decoration: none;
+    /* margin-top: 5px; */
+    margin-left: 10px;
+}
+
+.right hr{
+    margin-left: 10px;
+}
+
+.right .fa-unlock{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.right img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.right h4{
+    color: white;
+    /* margin-top: 5px; */
+    margin-left: 10px;
+}
+
+.head2{
+    background-color: white;
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+}
+
+.head2 .logo{
+    /* border: 1px solid green; */
+    width: 50%;
+}
+
+.head2 .logo img{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.head2 .menu{
+    /* border: 1px solid yellow; */
+    width: 50%;
+    padding-top: 25px;
+}
+
+.head2 .menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.head2 .menu a:hover{
+    color: red;
+}
+
+.services{
+    /* border:5px solid green; */
+    padding-top: 50px;
+}
+
+.services h1{
+    margin-left: 40%;
+}
+
+.services p{
+    margin-left: 30%;
+}
+
+.cart{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    /* border:1px solid black; */
+    margin-top: 50px;
+}
+
+.cart .ocean{
+    height: 400px;
+    width: 25%;
+    /* border: 1px solid red; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cart .air{
+    height: 400px;
+    width: 25%;
+    /* border: 1px solid red; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cart .car{
+    height: 400px;
+    width: 25%;
+    /* border: 1px solid red; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cart img{
+    width: 100%;
+    height: 200px;
+}
+
+.cart h5{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.cart p{
+    padding-left: 20px;
+}
+
+.cart a{
+    text-decoration: none;
+    color: red;
+    padding-left: 20px;
+}
+
+.cart a:hover{
+    color: black;
+}
+
+.cart .line{
+    background-color: red;
+    height: 2px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: -4px
+}
+
+.cart i{
+    color: red;
+}
+
+.cart i:hover{
+    color: black;
+}
+
+.country{
+    background-image: url('https://web24service.com/work/themeforest/w-shipping/assets/images/we-provide-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 500px;
+    margin-top: 50px;
+}
+
+.image-overlay{
+    background-color: rgba(121, 0, 0, 0.65);
+    width: 100%;
+    height: 500px;
+}
+
+.country .image-overlay h3{
+    margin-left: 45%;
+    padding-top: 10%;
+    color: white;
+    text-transform: uppercase;
+}
+
+.country .image-overlay h1{
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20%;
+}
+
+.country .image-overlay h2{
+    color: yellow;
+    text-transform: capitalize;
+    margin-left: 25%;
+}
+
+.country .image-overlay button{
+    margin-left: 44%;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
+.country .image-overlay button:hover{
+    background-color: rgb(53, 50, 50);
+}
+
+.about{
+    border:3px solid yellow;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about .about-img{
+    background-image: url('https://web24service.com/work/themeforest/w-shipping/assets/images/why-choose-us.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 340px;
+    margin-top: 80px;
+}
+
+.about .about-content{
+    border: 2px solid red;
+    width: 30%;
+    height: 340px;
+    margin-top: 80px;
+}
+
+.about h3{
+    text-transform: uppercase;
+}
+
+.about-content .under{
+    display: flex;
+}
+
+.about-content .underline1{
+    height: 3px;
+    width: 30px;
+    background-color: red;
+}
+
+.about-content .underline2{
+    height: 3px;
+    width: 100px;
+    background-color: green;
+    margin-left: 50px;
+}
+
+.about .about-facility{
+    border: 2px solid red;
+    width: 30%;
+    height: 340px;
+    margin-top: 80px;
+}
